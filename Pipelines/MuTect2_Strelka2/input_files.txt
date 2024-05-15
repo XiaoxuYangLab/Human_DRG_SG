@@ -1,0 +1,2 @@
+#sample	tumor	normal	tumor_path	normal_path	vcf_path
+SAMPLE_NAME	SAMPLE_NAME	CONTROL_NAME	./SAMPLE_NAME.recaled.bam	./CONTROL_NAME.recaled.bam	./Germline_vcf.vcf.gz
