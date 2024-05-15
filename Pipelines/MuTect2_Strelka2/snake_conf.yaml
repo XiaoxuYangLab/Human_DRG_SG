@@ -26,7 +26,7 @@ repeat_masker : "~/ref_files/all_repeats.b37.bed"
 segdup : "~/ref_files/segdup.hg19.bed"
 
 # SINGULARITY CONTAINERS
-strelka2_singularity : "~/strelka_2.9.10--0/"
-gatk4_singularity : "~/gatk4_4.0.4.0--0/"
-bedtools_singularity : "~/bedtools_2.27.0--0/"
-samtools_singularity : "~/samtools_1.13--h8c37831_0/"
+strelka2_singularity : "singularity/strelka_2.9.10--0/"
+gatk4_singularity : "singularity/gatk4_4.0.4.0--0/"
+bedtools_singularity : "singularity/bedtools_2.27.0--0/"
+samtools_singularity : "singularity/samtools_1.13--h8c37831_0/"
