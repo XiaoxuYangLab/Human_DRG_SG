@@ -34,9 +34,9 @@ Alignment and processing of MPAS and snMPAS were carried out following [this pip
 
 After alignment, candidate variants were further combined and genotyped using [this pipeline](https://github.com/shishenyxx/PASM/tree/master/Snakemake_pipeline) in every sample detected with MPAS and snMPAS. 
 
-Quality control was carried out for WGS and MPAS MAFs.
+Mosaic candidates called by more than two of the above pipelines were selected as candidates to design the MPAS panel. For skin samples, only 100 variants were randomly selected for the design. Positive controls from heterozygous variants from common SNPs and negative controls from alternative homozygous variants from common SNPs were selected in the design of the MPAS panel.
 
-Mosaic candidates called by more than two of the above pipelines were selected as candidates to design MPAS panel. For skin samples, only 100 variants were randomly selected for the design. Positive controls from heterozygous variants from common SNPs and negative controls from alternative homozygous variants from common SNPs were selected in the design of the MPAS panel.
+Quality control was carried out for WGS and MPAS MAFs, code and scripts for quality control can be found [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Pipelines/QC).
 
 -----------------------------------
 
@@ -48,7 +48,7 @@ Variant annotations for samples are provided separately.
 
 #### 3.2 Pipelines for statistical analysis, and the related plotting
 
-geoclone
+"geoclones" are used to map the AF of each candidate mosaic variant onto the schematic of the body plan, geoclones of the three donors were generated from a code [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/geoclone).
 
 enrichment between different categories
 
