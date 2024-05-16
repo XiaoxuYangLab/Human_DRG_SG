@@ -4,7 +4,7 @@ library("RColorBrewer")
 #8553
 raw<-read.csv(file="8553_positive_variants.csv",header=T)
 pdf(file="8553_DRG_SG_geoclones_update20240403.pdf",width=6,height=17)
-for(i in 1:826){
+for(i in 1:nrow(raw)){
 temp<-raw[raw$CHROM.POS.REF.ALT==names(table(raw$CHROM.POS.REF.ALT))[i],]
 plot <-
 	ggplot()+
@@ -103,7 +103,7 @@ dev.off()
 #8718
 raw<-read.csv(file="8718_positive_variants.csv",header=T)
 pdf(file="8718_DRG_SG_geoclones_update20240403.pdf",width=6,height=15)
-for(i in 1:251){
+for(i in 1:nrow(raw)){
 temp<-raw[raw$CHROM.POS.REF.ALT==names(table(raw$CHROM.POS.REF.ALT))[i],]
 plot <-
 	ggplot()+
@@ -200,7 +200,7 @@ dev.off()
 #8990
 raw<-read.csv(file="8990_positive_variants.csv",header=T)
 pdf(file="8990_DRG_SG_geoclones_update20240506.pdf",width=7,height=15)
-for(i in 1:505){
+for(i in 1:nrow(raw)){
 temp<-raw[raw$CHROM.POS.REF.ALT==names(table(raw$CHROM.POS.REF.ALT))[i],]
 plot <-
 	ggplot()+
