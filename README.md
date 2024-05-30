@@ -52,6 +52,8 @@ Variant annotations for samples are provided separately.
 
 enrichment between different categories
 
+For snMPAS and ResolveOME analysis, permutation analysis is described [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Permutation_single_cell). 
+
 -----------------------------------
 
 ### 4. Contact:
