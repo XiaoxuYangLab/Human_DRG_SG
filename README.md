@@ -50,7 +50,7 @@ Variant annotations for samples are provided separately.
 
 "geoclones" are used to map the AF of each candidate mosaic variant onto the schematic of the body plan, geoclones of the three donors were generated from a code [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/geoclone).
 
-enrichment between different categories
+Estimated starting cell population when DRG/SG split and Left/Right split are calculated [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Simulate_starting_population)
 
 For snMPAS and ResolveOME analysis, permutation analysis is described [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Permutation_single_cell). 
 
@@ -60,8 +60,7 @@ For snMPAS and ResolveOME analysis, permutation analysis is described [here](htt
 
 :email: Keng Ioi (Harry) Vong: [kivong@health.ucsd.edu](mailto:kivong@health.ucsd.edu)
 
-:email: Xiaoxu Yang: [xiy010@health.ucsd.edu](mailto:xiy010@health.ucsd.edu), [yangxiaoxu-shishen@hotmail.com](mailto:yangxiaoxu-shishen@hotmail.com)
-
+:email: Xiaoxu Yang: [u6055394@utah.edu](mailto:u6055394@utah.edu), [xiaoxuyanglab@gmail.com](mailto:xiaoxuyanglab@gmail.com) 
 :email: Joseph Gleeson: [jogleeson@health.ucsd.edu](mailto:jogleeson@health.ucsd.edu), or the Gleeson lab [gleesonlab@health.ucsd.edu](gleesonlab@health.ucsd.edu)
 
 -----------------------------------
