@@ -60,7 +60,8 @@ For snMPAS and ResolveOME analysis, permutation analysis is described [here](htt
 
 :email: Keng Ioi (Harry) Vong: [kivong@health.ucsd.edu](mailto:kivong@health.ucsd.edu)
 
-:email: Xiaoxu Yang: [u6055394@utah.edu](mailto:u6055394@utah.edu), [xiaoxuyanglab@gmail.com](mailto:xiaoxuyanglab@gmail.com) 
+:email: Xiaoxu Yang: [u6055394@utah.edu](mailto:u6055394@utah.edu), [xiaoxuyanglab@gmail.com](mailto:xiaoxuyanglab@gmail.com)
+
 :email: Joseph Gleeson: [jogleeson@health.ucsd.edu](mailto:jogleeson@health.ucsd.edu), or the Gleeson lab [gleesonlab@health.ucsd.edu](gleesonlab@health.ucsd.edu)
 
 -----------------------------------
