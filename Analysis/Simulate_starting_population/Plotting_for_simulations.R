@@ -1,4 +1,4 @@
-# Plotting for number of starting population of group-shared variants
+# Plotting for the number of starting populations of group-shared variants
 
 library(ggplot2)
 
@@ -43,7 +43,7 @@ ggplot(raw,aes(x=factor(Type,level=c("DRG_SG_C","L_R_C","DRG_SG_T","L_R_T")),y=l
 dev.off()
 
 
-## select both LR variants	
+## select variants that are shared by both Left and Right ( 0.6666667<correct left/Right<1.5)
 
 raw2<-raw[raw$Variant_LR=="Both_LR",]
 
@@ -102,7 +102,7 @@ ggplot(raw, aes(x=Type,y=log10(Estimated_number)))+
 	theme_classic()
 dev.off()
 
-## remove variants that are clustered
+## Remove variants that are clustered
 
 raw2<-raw[raw$Clusters_of_mutations==0,]
 
