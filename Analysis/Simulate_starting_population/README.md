@@ -18,4 +18,8 @@ Hypergeometric distribution simulation is carried out and the codes are [here](h
 
 ### Simulate the potential progenitor cell population based on variants that are specific to sample groups
 
-We assume variants specific to sample groups are 0 positive in the comparing group, when the split occurred, only one cell was carrying the variant. 
+We assume variants specific to sample groups are 0 positive in the comparing group, when the split occurred, only one cell was carrying the variant. Clustered variants that reflected clustering events from passenger mutations. Performance with and without those cluster is compared. 
+
+### Plotting for the simulation results
+
+Codes for plotting the summarized result of the simulations are provided [here](https://github.com/shishenyxx/Human_DRG_SG/blob/main/Analysis/Simulate_starting_population/Plotting_for_simulations.R)
