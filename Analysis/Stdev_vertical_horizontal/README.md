@@ -1,0 +1,2 @@
+# Similarity of variants in vertical and horizontal groups
+To compare the overall similarity of vertical (ganglia-chain-level) groups vs horizontal groups (DRG-SG at the adjcent levels), Standard deviation between vertical groups (DRG L, SG L, DRG R, SG R) in the thoracic levels are calculated for each non-het mosaic variant, compared with standard deviation of the adjecent groups (T1,T2,T3 DRG SG L R for example).
