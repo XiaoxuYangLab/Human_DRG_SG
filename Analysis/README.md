@@ -6,7 +6,7 @@
 
 ## Estimation of variances within the ganglia chain vertically and between ganglia in the horizontal levels
 
-Estimation of AF standard deviation within and between ganglia chains could be found [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Stdev_vertical_horizontal)
+Estimation of AF standard deviation within and between ganglia chains can be found [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Stdev_vertical_horizontal)
 
 ## Estimation of starting cell populations
 
