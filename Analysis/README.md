@@ -1,6 +1,6 @@
 # Data analysis
 
-## geoclones to visualize the allelic fractions among tissues
+## Visualize the allelic fractions among tissue samples with geoclones
 
 "geoclones" are used to map the AF of each candidate mosaic variant onto the schematic of the body plan, geoclones of the three donors were generated from a code [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/geoclone).
 
