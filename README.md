@@ -1,6 +1,6 @@
 # Understanding human development relationships between dorsal root ganglia and sympathetic ganglia chains
 
-Samples from three donors without diagnosed proliferative or infectious disorders in the central nerve system, ID06 (8553), ID07 (8718), and ID08 (8990), were systematically dissected and collected. DNA extracted from these samples was subjected to 30x and 300x WGS bulk genome sequencing. Clonal mosaic variants were detected from sample-shared and sample-specific data analysis pipelines, and a subset of high-confidence variants were subjected to MPAS and snMPAS design. Genotypes and accurate allelic fractions were obtained through the MPAS and snMPAS analysis from both the original samples sent for sequencing and sorted single nuclei. Matrixes of allelic fractions quantified from different samples were used for the estimation of genomic similarities and inferring developmental relationships. Codes and pipelines for the analysis are described below. WGS panel of normal data is available [here](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA660493&o=acc_s%3Aa).
+Samples from ID06 (8553), ID07 (8718), and ID08 (8990), three donors without diagnosed proliferative or infectious disorders in the central nerve system, were systematically dissected and collected. DNA extracted from these samples was subjected to 30x and 300x WGS bulk genome sequencing. Clonal mosaic variants were detected from sample-shared and sample-specific data analysis pipelines, and a subset of high-confidence variants were subjected to MPAS and snMPAS design. Genotypes and accurate allelic fractions were obtained through the MPAS and snMPAS analysis from both the original samples sent for sequencing and sorted single nuclei. Matrixes of allelic fractions quantified from different samples were used for the estimation of genomic similarities and inferring developmental relationships. Codes and pipelines for the analysis are described below. WGS panel of normal data is available [here](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA660493&o=acc_s%3Aa).
 
 -----------------------------------
 
@@ -8,7 +8,7 @@ Samples from three donors without diagnosed proliferative or infectious disorder
 
 #### 1.1 Pipelines for WGS data process
 
-FASTQ files were aligned to GRCh37 reference genome using [this pipeline](https://github.com/shishenyxx/Human_Inhibitory_Neurons/tree/main/Pipelines/Alignment).
+FASTQ files were aligned to GRCh37 reference genome using [this pipeline](https://github.com/shishenyxx/Human_Inhibitory_Neurons/tree/main/Pipelines/Alignment), recalibrated bams were further merged with samtools merge to acquire the 30x and 300x depth.
 
 Germline heterozygous variants are called with HaplotypeCaller following [this pipeline](https://github.com/shishenyxx/Sperm_control_cohort_mosaicism/tree/master/Pipelines/Preprocessing/Haplocaller).
 
