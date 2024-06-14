@@ -4,7 +4,7 @@
 
 "geoclones" are used to map the AF of each candidate mosaic variant onto the schematic of the body plan, geoclones of the three donors were generated from a code [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/geoclone).
 
-## Estimation of variances within the ganglia chain vertically and between ganglia in the horizontal levels
+## Estimation of variances within the ganglia chain on the rostral-caudal direction vertically and between DRG-SG in the horizontal levels
 
 Estimation of AF standard deviation within and between ganglia chains can be found [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Stdev_vertical_horizontal)
 
