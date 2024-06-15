@@ -50,7 +50,7 @@ Variant annotations for samples are provided separately.
 
 "geoclones" are used to map the AF of each candidate mosaic variant onto the schematic of the body plan, geoclones of the three donors were generated from a code [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/geoclone).
 
-Estimation of AF standard deviation within and between ganglia chains can be found [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Stdev_vertical_horizontal)
+Estimation of AF standard deviation within and between ganglia chains (on the rostral-caudal axis within DRG or SG chain versus dorsal-ventral axis between DRG and SG from same or adjacent spinal levels) can be found [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Stdev_vertical_horizontal)
 
 Starting cell population when DRG/SG split and Left/Right split are estimated [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Simulate_starting_population).
 
