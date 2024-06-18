@@ -42,11 +42,11 @@ Quality control was carried out for WGS and MPAS MAFs, code and scripts for qual
 
 ### 3. Computational and statistical analyses for human neuronal clonal distribution patterns
 
-#### 3.1 Pipelines for mosaic variant determination, annotations, and plotting
+#### 3.1 Codes for mosaic variant determination, annotations, and plotting
 
 Variant annotations for samples are provided separately.
 
-#### 3.2 Pipelines for statistical analysis, and the related plotting
+#### 3.2 Codes for statistical analysis, and the related plotting
 
 "geoclones" are used to map the AF of each candidate mosaic variant onto the schematic of the body plan, geoclones of the three donors were generated from a code [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/geoclone).
 
@@ -54,7 +54,9 @@ Estimation of AF standard deviation within and between ganglia chains (on the ro
 
 Starting cell population when DRG/SG split and Left/Right split are estimated [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Simulate_starting_population).
 
-For snMPAS and ResolveOME analysis, permutation analysis is described [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Permutation_single_cell). 
+For snMPAS and ResolveOME analysis, permutation analysis is described [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Permutation_single_cell).
+
+10,000 bootstrap analysis was carried out to estimate the robustness of the dendrograms, details are described [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/bootstrap)
 
 -----------------------------------
 
