@@ -71,3 +71,6 @@ For snMPAS and ResolveOME analysis, permutation analysis is described [here](htt
 -----------------------------------
 
 ### 5. Cite the data and codes:
+Keng Ioi Vong*, Yanina D Alvarez, Geoffroy Noel, Scott T Barton, Changuk Chung, Robyn Howarth, Naomi Meave, Qingquan Zhang, Fiza Jiwani, Chelsea Barrows, Arzoo Patel, Stephen F Kingsmore, Melanie D White, Xiaoxu Yang*,#, Joseph G Gleeson#, 2024, [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.09.25.615004v1), DOI: https://doi.org/10.1101/2024.09.25.615004.  (Codes on GitHub)
+
+
