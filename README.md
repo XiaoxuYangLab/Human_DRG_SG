@@ -68,10 +68,9 @@ For snMPAS and ResolveOME analysis, permutation analysis is described [here](htt
 
 ### 4. Runtime
 
-The pipeline for deep whole-genome sequencing should run for 10-20 hours each step on a Liunx server with 4-8 cores 60-120G memory.
+The pipeline for deep whole-genome sequencing should run for 10-20 hours for each step on a Linux server with 4-8 cores and 60-120G memory. Statistical simulation code in R normally takes hours to finish. It normally does not run on a normal desktop computer.  
 
 -----------------------------------
-
 
 
 ### 5. Contact:
