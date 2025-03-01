@@ -4,6 +4,12 @@ Samples from ID06 (8553), ID07 (8718), and ID08 (8990), three donors without dia
 
 -----------------------------------
 
+### 0. Requirements
+
+Each pipeline and related requirements are detailed individually. In general, a Linux system is required for the raw data analysis pipeline and Linux/PC/MAC with R and python capability is required for the analyses and simulations in this repository.
+
+-----------------------------------
+
 ### 1. Pipelines for the process of whole-genome sequencing data
 
 #### 1.1 Pipelines for WGS data process
@@ -60,7 +66,15 @@ For snMPAS and ResolveOME analysis, permutation analysis is described [here](htt
 
 -----------------------------------
 
-### 4. Contact:
+### 4. Runtime
+
+The pipeline for deep whole-genome sequencing should run for 10-20 hours each step on a Liunx server with 4-8 cores 60-120G memory.
+
+-----------------------------------
+
+
+
+### 5. Contact:
 
 :email: Keng Ioi (Harry) Vong: [kivong@health.ucsd.edu](mailto:kivong@health.ucsd.edu)
 
