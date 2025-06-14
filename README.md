@@ -77,9 +77,9 @@ The pipeline for deep whole-genome sequencing should run for 10-20 hours for eac
 
 :email: Keng Ioi (Harry) Vong: [kivong@health.ucsd.edu](mailto:kivong@health.ucsd.edu)
 
-:email: Xiaoxu Yang: [xiaoxu.yang@genetics.utah.edu](mailto:xiaoxu.yang@genetics.utah.edu), [xiaoxuyanglab@gmail.com](mailto:xiaoxuyanglab@gmail.com), [xiy010@health.ucsd.edu](mailto:xiy010@health.ucsd.edu)
+:email: Xiaoxu Yang: [xiaoxu.yang@genetics.utah.edu](mailto:xiaoxu.yang@genetics.utah.edu),  or the Yang Lab [xiaoxuyanglab@gmail.com](mailto:xiaoxuyanglab@gmail.com)
 
-:email: Joseph Gleeson: [jogleeson@health.ucsd.edu](mailto:jogleeson@health.ucsd.edu)
+:email: :email: Joseph Gleeson: [jogleeson@health.ucsd.edu](mailto:jogleeson@health.ucsd.edu), or the Gleeson Lab [gleesonlab@health.ucsd.edu](gleesonlab@health.ucsd.edu)
 
 -----------------------------------
 
