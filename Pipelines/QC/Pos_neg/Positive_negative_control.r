@@ -26,6 +26,9 @@ ggplot(raw3,aes(x=CHROM.POS.REF.ALT,y=MAF,ymax=UPPER_CI,ymin=LOWER_CI))+
 	theme(axis.text.x=element_text(face="bold",size=8,angle=90))
 dev.off()
 
+quantile(1-raw3$LOWER_CI,c(0.025,0.05,0.25,0.5,0.75,0.9,0.95,0.975),na.rm=TRUE)
+## 0.0278686750 should be the cutoff for upper bound for homozygous from N=16851 variants
+
 pdf(file="8553-homo.pdf")
 ggplot(raw3,aes(x=1-MAF,fill=CATEGORY, col=CATEGORY))+
 	geom_histogram(bins=200,alpha=0.5, position="dodge")+
@@ -39,12 +42,19 @@ ggplot(raw3,aes(x=1-MAF,fill=CATEGORY, col=CATEGORY))+
 	theme_classic()
 dev.off()
 
-quantile(1-raw3$LOWER_CI,c(0.025,0.05,0.25,0.5,0.75,0.9,0.95,0.975),na.rm=TRUE)
+pdf(file="8553-homo-final.pdf")
+ggplot(raw3,aes(x=1-MAF,fill=CATEGORY, col=CATEGORY))+
+	geom_histogram(bins=200,alpha=0.5, position="dodge")+
+#	scale_y_log10()+
+	ylim(0,15000)+
+	geom_vline(xintercept=0.0278686750,linetype=2)+
+	labs(title="95 percentile: 0.0278686750",x="Mutant Allelic Fractions")+
+	theme_classic()
+dev.off()
 
-## 0.0278686750 should be the cutoff for upper bound for homozygous from N=16851 variants
-raw4<-raw2[raw2$CATEGORY=="HETERO",]
 
 ## look at heterozygous controls to see whether they perform as expected (hets)
+raw4<-raw2[raw2$CATEGORY=="HETERO",]
 
 pdf(file="8553-het-AF-test-removed.pdf",width=30,height=5)
 ggplot(raw4,aes(x=CHROM.POS.REF.ALT,y=MAF,ymax=UPPER_CI,ymin=LOWER_CI))+
@@ -70,6 +80,18 @@ dev.off()
 
 quantile(raw4$MAF,c(0.025,0.05,0.25,0.5,0.75,0.95,0.975),na.rm=TRUE)
 ## 0.4084610 and 0.5799192 should be the cutoff for hetero for 8553 
+
+pdf(file="8553-hetero-final.pdf")
+ggplot(raw4,aes(x=MAF,fill=CATEGORY, col=CATEGORY))+
+	geom_histogram(bins=200,alpha=0.5, position="dodge")+
+#	scale_y_log10()+
+	ylim(0,15000)+
+	geom_vline(xintercept=0.4084610,linetype=2)+
+	geom_vline(xintercept=0.5799192,linetype=2)+
+	labs(title="2.5 percentile: 0.4084610, 97.5 percentile:0.5799192",x="Mutant Allelic Fractions")+
+	theme_classic()
+dev.off()
+
 raw5<-raw2[raw2$CATEGORY!="HETERO"&raw2$CATEGORY!="ALT_HOMO",]
 
 bks=c(0,0.01,0.05,0.1,0.20,0.3,0.4,0.5,0.6,1)
@@ -140,6 +162,17 @@ dev.off()
 
 quantile(1-raw3$LOWER_CI,c(0.025,0.05,0.25,0.5,0.75,0.9,0.95,0.975),na.rm=TRUE)
 ## 0.0454769028 should be the cutoff for upperbond for homozygous from N=16851 variants
+
+pdf(file="8718-homo-final.pdf")
+ggplot(raw3,aes(x=1-MAF,fill=CATEGORY, col=CATEGORY))+
+	geom_histogram(bins=200,alpha=0.5, position="dodge")+
+	geom_vline(xintercept=0.0454769028, linetype=2)+
+#	scale_y_log10()+
+	labs(title="95 percentile: 0.0454769028",x="Mutant Allelic Fractions")+
+	ylim(0,10000)+
+	theme_classic()
+dev.off()
+
 raw4<-raw2[raw2$CATEGORY=="HETERO",]
 
 ## look at heterozygous controls to see whether they perform as expected (hets)
@@ -168,6 +201,19 @@ dev.off()
 
 quantile(raw4$MAF,c(0.025,0.05,0.25,0.5,0.75,0.95,0.975),na.rm=TRUE)
 ## 0.4166667 and 0.5710154 should be the cutoff for hetero for 8553 
+
+pdf(file="8718-hetero-final.pdf")
+ggplot(raw4,aes(x=MAF,fill=CATEGORY, col=CATEGORY))+
+	geom_histogram(bins=200,alpha=0.5, position="dodge")+
+	geom_vline(xintercept=0.4166667, linetype=2)+
+	geom_vline(xintercept=0.5710154, linetype=2)+
+	labs(title="2.5 percentile: 0.4166667, 97.5 percentile:0.5710154",x="Mutant Allelic Fractions")+
+#	scale_y_log10()+
+	ylim(0,10000)+
+	theme_classic()
+dev.off()
+
+
 raw5<-raw2[raw2$CATEGORY!="HETERO"&raw2$CATEGORY!="ALT_HOMO",]
 
 bks=c(0,0.01,0.05,0.1,0.20,0.3,0.4,0.5,0.6,1)
@@ -238,6 +284,16 @@ dev.off()
 quantile(1-raw3$LOWER_CI,c(0.025,0.05,0.25,0.5,0.75,0.9,0.95,0.975),na.rm=TRUE)
 ## 0.0034990564 should be the cutoff for upperbond for homozygous from N=6100 variants
 
+pdf(file="8990-homo-final.pdf")
+ggplot(raw3,aes(x=1-MAF,fill=CATEGORY, col=CATEGORY))+
+	geom_histogram(bins=200,alpha=0.5, position="dodge")+
+#	scale_y_log10()+
+	ylim(0,1500)+
+	geom_vline(xintercept=0.0034990564,linetype=2)+
+	labs(title="95 percentile: 0.0034990564",x="Mutant Allelic Fractions")+
+	theme_classic()
+dev.off()
+
 raw4<-raw2[raw2$CATEGORY=="HETERO",]
 
 ## look at heterozygous controls to see whether they perform as expected (hets)
@@ -267,6 +323,16 @@ dev.off()
 quantile(raw4$MAF,c(0.025,0.05,0.25,0.5,0.75,0.95,0.975),na.rm=TRUE)
 ## 0.4644791 and 0.5381781 should be the cutoff for hetero for 8990 
 
+pdf(file="8990-hetero-final.pdf")
+ggplot(raw4,aes(x=MAF,fill=CATEGORY, col=CATEGORY))+
+	geom_histogram(bins=200,alpha=0.5, position="dodge")+
+	ylim(0,1500)+
+#	scale_y_log10()+
+	geom_vline(xintercept=0.4644791,linetype=2)+
+	geom_vline(xintercept=0.5381781,linetype=2)+
+	labs(title="2.5 percentile: 0.4644791, 97.5 percentile: 0.5381781",x="Mutant Allelic Fractions")+
+	theme_classic()
+dev.off()
 
 raw5<-raw[raw$CATEGORY!="HETERO"&raw2$CATEGORY!="ALT_HOMO",]
 
