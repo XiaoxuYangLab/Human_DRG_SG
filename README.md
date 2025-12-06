@@ -4,21 +4,21 @@ Samples from ID06 (8553), ID07 (8718), and ID08 (8990), three donors without dia
 
 -----------------------------------
 
-### 0. Requirements
+### 1. Requirements
 
 Each pipeline and related requirements are detailed individually. In general, a Linux system is required for the raw data analysis pipeline and Linux/PC/MAC with R and python capability is required for the analyses and simulations in this repository.
 
 -----------------------------------
 
-### 1. Pipelines for the process of whole-genome sequencing data
+### 2. Pipelines for the process of whole-genome sequencing data
 
-#### 1.1 Pipelines for WGS data process
+#### 2.1 Pipelines for WGS data process
 
 FASTQ files were aligned to GRCh37 reference genome using [this pipeline](https://github.com/shishenyxx/Human_Inhibitory_Neurons/tree/main/Pipelines/Alignment), recalibrated bams were further merged with samtools merge to acquire the 30x and 300x depth.
 
 Germline heterozygous variants are called with HaplotypeCaller following [this pipeline](https://github.com/shishenyxx/Sperm_control_cohort_mosaicism/tree/master/Pipelines/Preprocessing/Haplocaller).
 
-#### 1.2 Pipelines for mosaic SNV/indel calling and variant annotations
+#### 2.2 Pipelines for mosaic SNV/indel calling and variant annotations
 
 Sample-unique variant calling with Mutect2 and Strelka2 paired mode is carried out following [this pipeline](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Pipelines/MuTect2_Strelka2).
 
@@ -30,13 +30,13 @@ Variants were further combined and annotations were performed using [this pipeli
 
 -----------------------------------
 
-### 2. Pipelines for the process of Massive Parallel Amplicon Sequencing (MPAS) and single-nuclei Massive Parallel Amplicon Sequencing (snMPAS)
+### 3. Pipelines for the process of Massive Parallel Amplicon Sequencing (MPAS) and single-nuclei Massive Parallel Amplicon Sequencing (snMPAS)
 
-#### 2.1 Pipelines for MPAS and snMPAS data alignment and processing
+#### 3.1 Pipelines for MPAS and snMPAS data alignment and processing
 
 Alignment and processing of MPAS and snMPAS were carried out following [this pipeline](https://github.com/shishenyxx/Adult_brain_somatic_mosaicism/tree/master/pipelines/MPAS_and_snMPAS_processing_pipeline)
 
-#### 2.2 Pipelines for AF quantification and variant annotations
+#### 3.2 Pipelines for AF quantification and variant annotations
 
 After alignment, candidate variants were further combined and genotyped using [this pipeline](https://github.com/shishenyxx/PASM/tree/master/Snakemake_pipeline) in every sample detected with MPAS and snMPAS. 
 
@@ -46,13 +46,13 @@ Quality control was carried out for WGS and MPAS MAFs, code and scripts for qual
 
 -----------------------------------
 
-### 3. Computational and statistical analyses for human neuronal clonal distribution patterns
+### 4. Computational and statistical analyses for human neuronal clonal distribution patterns
 
-#### 3.1 Codes for mosaic variant determination, annotations, and plotting
+#### 4.1 Codes for mosaic variant determination, annotations, and plotting
 
 Variant annotations for samples are provided separately.
 
-#### 3.2 Codes for statistical analysis, and the related plotting
+#### 4.2 Codes for statistical analysis, and the related plotting
 
 "geoclones" are used to map the AF of each candidate mosaic variant onto the schematic of the body plan, geoclones of the three donors were generated from a code [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/geoclone).
 
@@ -66,20 +66,20 @@ For snMPAS and ResolveOME analysis, permutation analysis is described [here](htt
 
 -----------------------------------
 
-### 4. DARLIN data analyses
+### 5. DARLIN data analyses
 
 The data analysis of DARLIN follows the original pipeline with some modifications based on the sample collected. The analysis can be found [here](https://github.com/XiaoxuYangLab/Human_DRG_SG/tree/main/Analysis/Darline). 
 
 -----------------------------------
 
-### 5. Runtime
+### 6. Runtime
 
 The pipeline for deep whole-genome sequencing should run for 10-20 hours for each step on a Linux server with 4-8 cores and 60-120G memory. Statistical simulation code in R normally takes hours to finish. It normally does not run on a normal desktop computer.  
 
 -----------------------------------
 
 
-### 6. Contact:
+### 7. Contact:
 
 :email: Keng Ioi (Harry) Vong: [kivong@health.ucsd.edu](mailto:kivong@health.ucsd.edu)
 
@@ -89,7 +89,7 @@ The pipeline for deep whole-genome sequencing should run for 10-20 hours for eac
 
 -----------------------------------
 
-### 5. Cite the data and codes:
+### 8. Cite the data and codes:
 Keng Ioi Vong*, Yanina D Alvarez, Geoffroy Noel, Scott T Barton, Changuk Chung, Robyn Howarth, Naomi Meave, Qingquan Zhang, Fiza Jiwani, Chelsea Barrows, Arzoo Patel, Stephen F Kingsmore, Melanie D White, Xiaoxu Yang*,#, Joseph G Gleeson#, 2024, [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.09.25.615004v1), DOI: [https://doi.org/10.1101/2024.09.25.615004](https://doi.org/10.1101/2024.09.25.615004).
 
 
