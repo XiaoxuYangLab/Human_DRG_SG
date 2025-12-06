@@ -16,6 +16,10 @@ Starting cell population when DRG/SG split and Left/Right split are estimated [h
 
 For snMPAS and ResolveOME analysis, permutation analysis is described [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Permutation_single_cell). 
 
+## Bootstrap for robustness of dendrograms
+
+[Codes](https://github.com/XiaoxuYangLab/Human_DRG_SG/tree/main/Analysis/bootstrap) For the bootstrap analysi for the robustness of dendrograms
+
 ## Darlin mice data analysis
 
 [Codes](https://github.com/XiaoxuYangLab/Human_DRG_SG/tree/main/Analysis/Darline) For data analysis from bulk Darlin mice 
