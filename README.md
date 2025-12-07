@@ -6,7 +6,7 @@ Samples from ID06 (8553), ID07 (8718), and ID08 (8990), three donors without dia
 
 ### 1. Requirements
 
-Each pipeline and related requirements are detailed individually. In general, a Linux system is required for the raw data analysis pipeline and Linux/PC/MAC with R and python capability is required for the analyses and simulations in this repository.
+Each pipeline and related requirements are detailed individually. In general, a Linux system is required for the raw data analysis pipeline and Linux/PC/MAC with R and python capability is required for the analyses and simulations in this repository. Packages and dependencies are listed in each pipeline and codes separately.
 
 -----------------------------------
 
