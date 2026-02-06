@@ -8,6 +8,37 @@ Samples from ID06 (8553), ID07 (8718), and ID08 (8990), three donors without dia
 
 Each pipeline and related requirements are detailed individually. In general, a Linux system is required for the raw data analysis pipeline and Linux/PC/MAC with R and python capability is required for the analyses and simulations in this repository. Packages and dependencies are listed in each pipeline and codes separately.
 
+Software versions:
+Mutect2 (v4.0.4.0 from GATK)
+MosaicHunter (single-mode, v 1.0)
+GATK (v 4.0.4)
+DeepMosaic (v 1.0.1)
+MosaicForecast (v8-13-2019)
+Strelka2 (v 2.9.2)
+gnomAD (v 2.1.1)
+Snakemake (v 6.12.3)
+BEDTools (v 2.30.0)
+Python (v 3.10)
+R (4.1.3)
+MEGA (v11.0.13)
+MUSCLE (v1)
+Cell Ranger (v7.0.2 used for single-nucleus RNA seq with ResolveOME, v9.0.1 used for single-cell RNA seq)
+Seurat (v4.0.5)
+fastqc (v0.11.8)
+cutadapt (v1.16)
+GRCh38 human genome and gencode (v27) gtf anntotation using STAR (v2.6.0c)
+SAMtools (v1.7)
+Picard (v2.20.7)
+qualimap (v2.2.2-dev)
+featureCounts (v2.0.0)
+rsem (v1.3.1)
+r-pvclust (v2.2.0)
+ComplexHeatmap (v2.16.0)
+r-ggplot2 (v3.4.3)
+maftools (v2.16.0)
+r-umap (v0.2.10.0)
+SAMBAMBA (v0.7.0)
+
 -----------------------------------
 
 ### 2. Pipelines for the process of whole-genome sequencing data
