@@ -1,0 +1,19 @@
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+
+  # optional but common quality-of-life
+  - jupyterlab
+  - ipykernel
+
+  - pip:
+      - upsetplot
+      - cospar
+
+
+
