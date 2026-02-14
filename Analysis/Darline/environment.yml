@@ -7,7 +7,7 @@ dependencies:
   - seaborn
   - scipy
 
-  # optional but common quality-of-life
+  # optional 
   - jupyterlab
   - ipykernel
 
