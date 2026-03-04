@@ -1,5 +1,8 @@
 # Quality control for MPAS
 
+## Requirements
+same as in the main doc
+
 ## [Depth Analysis](https://github.com/XiaoxuYangLab/Human_DRG_SG/tree/main/Pipelines/QC/Depth)
 
 ## [Distribution of positive and negative control variants](https://github.com/XiaoxuYangLab/Human_DRG_SG/tree/main/Pipelines/QC/Pos_neg)
