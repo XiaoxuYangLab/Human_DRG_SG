@@ -75,6 +75,10 @@ Mosaic candidates called by more than two of the above pipelines were selected a
 
 Quality control was carried out for WGS and MPAS MAFs, code and scripts for quality control can be found [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Pipelines/QC).
 
+#### 3.3 Codes for single cell RNA seq analysis
+
+Seurat based codes for single cell RNA seq analysis codes can be found [here](Analysis/NC_scRNAseq_analysis.ipynb).
+
 -----------------------------------
 
 ### 4. Computational and statistical analyses for human neuronal clonal distribution patterns
