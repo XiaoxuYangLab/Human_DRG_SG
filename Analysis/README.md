@@ -6,7 +6,7 @@
 
 ## Estimation of variances within the ganglia chain on the rostral-caudal direction vertically and between DRG-SG in the horizontal levels
 
-Estimation of AF standard deviation within and between ganglia chains can be found [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Stdev_vertical_horizontal)
+Estimation of AF standard deviation within and between ganglia chains can be found [here](https://github.com/shishenyxx/Human_DRG_SG/tree/main/Analysis/Stdev_vertical_horizontal).
 
 ## Estimation of starting cell populations
 
@@ -18,8 +18,12 @@ For snMPAS and ResolveOME analysis, permutation analysis is described [here](htt
 
 ## Bootstrap for robustness of dendrograms
 
-[Codes](https://github.com/XiaoxuYangLab/Human_DRG_SG/tree/main/Analysis/bootstrap) For the bootstrap analysi for the robustness of dendrograms
+[Codes](https://github.com/XiaoxuYangLab/Human_DRG_SG/tree/main/Analysis/bootstrap) for the bootstrap analysi for the robustness of dendrograms.
 
 ## Darlin mice data analysis
 
-[Codes](https://github.com/XiaoxuYangLab/Human_DRG_SG/tree/main/Analysis/Darline) For data analysis from bulk Darlin mice 
+[Codes](https://github.com/XiaoxuYangLab/Human_DRG_SG/tree/main/Analysis/Darline) for data analysis from bulk Darlin mice. 
+
+## Codes for single cell RNA seq analysis
+
+[Codes](https://github.com/XiaoxuYangLab/Human_DRG_SG/blob/main/Analysis/NC_scRNAseq_analysis.ipynb) for data analysis of the scRNA seq data.
