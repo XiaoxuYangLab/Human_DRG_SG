@@ -113,8 +113,13 @@ The pipeline for deep whole-genome sequencing should run for 10-20 hours for eac
 
 -----------------------------------
 
+### 7. Demos
 
-### 7. Contact:
+Demos are provided together with each specific published tools used in the pipelines. For in-house codes, raw input and expected output are provided for demonstration purposes.  
+
+-----------------------------------
+
+### 8. Contact:
 
 :email: Keng Ioi (Harry) Vong: [kivong@health.ucsd.edu](mailto:kivong@health.ucsd.edu)
 
