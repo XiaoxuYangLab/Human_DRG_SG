@@ -130,6 +130,6 @@ Demos are provided together with each specific published tools used in the pipel
 -----------------------------------
 
 ### 8. Cite the data and codes:
-Keng Ioi Vong*, Yanina D Alvarez, Geoffroy Noel, Scott T Barton, Changuk Chung, Robyn Howarth, Naomi Meave, Qingquan Zhang, Fiza Jiwani, Chelsea Barrows, Arzoo Patel, Stephen F Kingsmore, Melanie D White, Xiaoxu Yang*,#, Joseph G Gleeson#, 2024, [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.09.25.615004v1), DOI: [https://doi.org/10.1101/2024.09.25.615004](https://doi.org/10.1101/2024.09.25.615004).
+Keng Ioi Vong*, Yanina D Alvarez, Qingquan Zhang, Jiaming Weng, Geoffroy Noel, Scott T Barton, Changuk Chung, Robyn Howarth, Naomi Meave, Fiza Jiwani, Sai B Patarlapalli, Fenyong Yao, Fugui Zhu, Chelsea Barrows, Arzoo Patel, Jian Xiong Wang, Neil C Chi, Stephen F Kingsmore, Melanie D White, Xiaoxu Yang*,#, Joseph G Gleeson#, 2026, [Nature](https://www.nature.com/articles/s41586-026-10313-0), DOI: [https://doi.org/10.1038/s41586-026-10313-0](https://doi.org/10.1038/s41586-026-10313-0).
 
 
